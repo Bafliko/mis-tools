@@ -1,0 +1,163 @@
+{
+  "camera_index": 0,
+  "localizer": "aruco",
+  "marker_ids": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "warp_size": [
+    1000,
+    700
+  ],
+  "detect": {
+    "canny": [
+      50,
+      150
+    ],
+    "min_area_frac": 0.05,
+    "aspect_tol": 0.25,
+    "clahe": false,
+    "hsv": null,
+    "jump_px": 40,
+    "grace_frames": 5
+  },
+  "motion_area_frac": 0.0025,
+  "motion_settle_s": 0.5,
+  "grad_weight": 0.2,
+  "search_radius": 5,
+  "uncertain_margin": 0.073,
+  "drift_margin": 0.3,
+  "drift_after": 60,
+  "drift_alpha": 0.02,
+  "drawers": [
+    {
+      "name": "main",
+      "baseline_file": "baseline.png",
+      "empty_file": "empty.png",
+      "rois": [
+        {
+          "id": "292",
+          "name": "292",
+          "rect": [
+            123,
+            117,
+            218,
+            293
+          ]
+        },
+        {
+          "id": "293",
+          "name": "293",
+          "rect": [
+            328,
+            248,
+            113,
+            450
+          ]
+        },
+        {
+          "id": "294",
+          "name": "294",
+          "rect": [
+            468,
+            293,
+            127,
+            401
+          ]
+        },
+        {
+          "id": "291",
+          "name": "291",
+          "rect": [
+            135,
+            396,
+            190,
+            299
+          ]
+        },
+        {
+          "id": "290",
+          "name": "290",
+          "rect": [
+            5,
+            264,
+            112,
+            434
+          ]
+        },
+        {
+          "id": "295",
+          "name": "295",
+          "rect": [
+            602,
+            305,
+            133,
+            388
+          ]
+        },
+        {
+          "id": "296",
+          "name": "296",
+          "rect": [
+            740,
+            350,
+            126,
+            344
+          ]
+        },
+        {
+          "id": "297",
+          "name": "297",
+          "rect": [
+            871,
+            353,
+            118,
+            344
+          ]
+        },
+        {
+          "id": "300",
+          "name": "300",
+          "rect": [
+            377,
+            129,
+            249,
+            124
+          ]
+        },
+        {
+          "id": "298",
+          "name": "298",
+          "rect": [
+            644,
+            173,
+            352,
+            143
+          ]
+        },
+        {
+          "id": "299",
+          "name": "299",
+          "rect": [
+            557,
+            1,
+            436,
+            168
+          ]
+        },
+        {
+          "id": "301",
+          "name": "301",
+          "rect": [
+            5,
+            2,
+            535,
+            114
+          ]
+        }
+      ]
+    }
+  ]
+}

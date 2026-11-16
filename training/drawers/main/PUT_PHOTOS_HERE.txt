@@ -1,0 +1,7 @@
+Example drawer folder. Photos for the drawer named "main" go here.
+
+    full_001.jpg                  every tool present
+    empty_001.jpg                 every tool removed (shot back to back with full_!)
+    missing_1333-292_001.jpg      that one tool absent
+
+Delete this file once you add real photos. See ../../README.md for the rules.
